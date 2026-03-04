@@ -5,7 +5,7 @@ sidebar:
 
   # Profile information
   name: Aliaksei Karpinski
-  tagline: Senior SDET / Automation QA Engineer
+  tagline: Senior Test Automation Engineer
   avatar: alex.jpeg # place in /assets/images/
 
   # Sidebar links
@@ -65,14 +65,20 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Senior SDET / Automation QA Engineer with 6+ years of experience in software testing (UI & API).
-    Strong in test automation and building/maintaining frameworks, CI setup, test strategy, and reporting.
+    Senior Test Automation Engineer with 6+ years in building test automation solutions with Cypress/Playwright.
+    Build scalable automation frameworks and CI quality gates that improve release confidence and speed.
 
-    Key strengths:
-    - Test automation: Playwright, Cypress, Axios
-    - Functional, regression, smoke, exploratory, cross-browser / cross-platform testing
-    - API & UI testing, requirements analysis, test planning and strategy
-    - CI/CD and test runs analysis (GitHub, Jenkins), bug reporting, TestRail/Jira
+    Highlights:
+    - ~90% coverage of critical user flows (UI + API), including smoke and regression
+    - 10-minute smoke quality gate in CI for fast PR validation
+    - Flaky rate reduced ~15% → ~5%; overall stability +~30% via isolated/atomic test targets
+
+    Core skills:
+    - Automation: Playwright, Cypress, Axios (TS/JS)
+    - Testing: functional, regression, smoke, exploratory; cross-browser/cross-platform
+    - CI/CD: GitHub Actions, Jenkins; test run analysis, reporting, quality gates
+    - QA process: requirements analysis, test strategy/planning, defect lifecycle (TestRail/Jira)
+    - AI tools: GitHub Copilot, ChatGPT, Codex
 
 education:
   title: Education
@@ -86,21 +92,20 @@ education:
 experiences:
   title: Experience
   info:
-    - role: Senior QA Automation Engineer (SDET)
+    - role: Senior Test Automation Engineer
       time: Mar 2023 - Present
       company: Brightsec, Gdańsk, Poland (Remote)
       details: |
         Product: Dynamic Application Security Testing (DAST).
 
-        - Developed and evolved an automation framework for web and API testing (Playwright/Cypress/Axios + TypeScript)
-        - Planned and estimated automation activities
-        - Created and maintained test suites and reusable utilities
-        - Coordinated developer teams and trained them in test automation approaches and best practices
-        - Analyzed requirements and validated specifications to prevent gaps and regressions early
-        - Refactored framework components to improve maintainability and speed up test development
-        - Set up automated test execution in CI (GitHub), monitored runs and stabilized flaky tests
-        - Prepared reports, communicated quality status, and documented outcomes
-        - Reported and tracked defects
+        - Developed and evolved a web + API automation frameworks (Playwright/Cypress/Axios + TypeScript), covering ~90% of critical user flows (smoke + regression)
+        - Introduced a 10-minute smoke suite as a CI quality gate enabling fast PR validation and safer releases
+        - Reduced flaky rate from ~15% to ~5% by improving test determinism and stabilizing critical checks
+        - Increased overall stability by ~30% by isolating environment dependencies via atomic test targets (minimizing env-related failures)
+        - Set up and maintained automated execution in GitHub CI (PR + scheduled), monitored runs, and kept feedback signal reliable for release decisions
+        - Built reusable utilities and refactored framework components to improve maintainability and speed up test development
+        - Coordinated and trained developers on automation best practices and testability-focused PR improvements; partnered on triage/RCA for faster defect resolution
+        - Reported and tracked defects with actionable evidence; communicated quality status and release readiness via concise reporting and documentation
 
     - role: QA Automation Engineer
       time: Aug 2020 - Mar 2023
@@ -112,10 +117,10 @@ experiences:
         Project: E-commerce platform (NDA): Mar 2022 - Mar 2023
         
         Stack: Playwright, Cypress, JavaScript, Bitbucket, TestRail
-        - Owned test automation approach for key user journeys and payment-related flows; aligned coverage with business priorities
-        - Designed maintainable test architecture: reusable fixtures, page objects/helpers, stable selectors and data strategies
-        - Implemented UI automation with Playwright and Cypress 
-        - Expanded regression pack and smoke suite
+        - Owned automation strategy for key user journeys incl. payment flows, keeping coverage aligned to business risk
+        - Achieved ~85% coverage of critical paths.
+        - Designed maintainable architecture (fixtures, page objects/helpers, selector + test data strategy), reducing maintenance effort by ~70%.
+        - Delivered UI automation in Cypress, expanding regression to 100+ scenarios and smoke to 30 high-signal checks.
         - Performed PR reviews with focus on testability, stability and maintainability
         - Investigated failures, reduced flaky behavior, and provided actionable defect reports for fast turnaround
         - Communicated progress and risks directly with the customer and participated in all Scrum ceremonies
@@ -123,20 +128,23 @@ experiences:
         Project: GA: Mar 2021 - Dec 2022
         
         Stack: WebdriverIO, Appium, JavaScript, Allure, BrowserStack, Git, CircleCI, Jenkins
-        - Built and maintained automation framework for web and mobile (iOS/Android) using WebdriverIO + Appium
-        - Set up and supported cloud device runs (BrowserStack) and reporting (Allure)
-        - Integrated automated runs into CI pipelines (Jenkins/CircleCI), improved feedback loop for releases
+        - Built and maintained a cross-platform automation framework (Web + iOS/Android) on WebdriverIO + Appium, covering 80% critical scenarios
+        - Scaled cloud execution in BrowserStack across 20+ device/browser configs with Allure reporting
+        - Improving run visibility and reducing investigation time by 80%.
+        - Integrated automated suites into Jenkins, delivering CI feedback in ~40 min and supporting release readiness gates.
         - Implemented cross-platform test scenarios, managed test data, and ensured consistent environments
         - Triaged test results, analyzed root causes, and collaborated with developers on fixes and improvements
 
         Project: DC: Mar 2020 - Feb 2021
         
         Stack: Cypress, JavaScript, Cypress, TestRail, Jira, Git, Jenkins
-        - Developed Cypress-based automation framework from scratch and established conventions for writing tests
-        - Automated critical CRM workflows; ensured cross-browser compatibility and stable selectors
-        - Organized CI execution in Jenkins and used Cypress Dashboard for visibility and debugging
-        - Maintained test suites, refactored common components, and kept documentation up to date
-        - Reported defects with clear reproduction steps and evidence
+        - Built a Cypress automation framework from scratch
+        - Enabling onboarding of new tests in 70% less time and standardizing test conventions across the team
+        - Automated 200+ business-critical CRM workflows (incl. 30 smoke)
+        - Integrated suites into Jenkins with + scheduled runs
+        - Delivered ~20 min smoke feedback and ~4 hours full regression runtime
+        - Reduced maintenance cost by refactoring, cutting flaky failures from 15% → 5%
+        - Provided sprint quality insights (TestRail/Jira): tracked coverage and release readiness, helping keep sprint commitments at 90%+
         - Supported sprint delivery with quality insights
 
 footer: >
