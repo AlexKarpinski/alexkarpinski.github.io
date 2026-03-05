@@ -67,7 +67,6 @@ experiences:
         - Built and maintained GitHub Actions automation (manual triggers, nightly runs, scheduled pipelines, dev-branch smoke), providing a stable CI signal with Slack reporting and release-readiness visibility
         - Designed a 10-minute smoke quality gate covering 15 scan configurations, enabling fast PR validation of core scanning behaviour
         - Scaled workflow-level regression runs to 20 parallel workers, keeping ~400 heavy E2E scenarios within ~1.5 hours daily runtime (target startup → scanning → assertions)
-        - Reduced flaky failures from ~15% to ~5% and improved overall stability by ~30% by increasing test determinism, isolating dependencies, and hardening assertions for scan-oriented flows
         - Provisioned isolated mock targets via Docker + Helm with unique per-run URLs and automated artifact/data cleanup, reducing environment noise and improving reproducibility
         - Implemented observability and benchmarking: metrics collection and Grafana dashboards, plus benchmark reporting in Google Sheets; reduced failure investigation time by ~80% through better visibility and reporting hygiene
         - Maintained a Cypress-based application/API regression suite in TypeScript/Cucumber covering ~1,200 tests, including ~800 API scenarios across scopes, API keys, UI, smoke, and daily regression flows, with TestRail-backed test management and parallel CI execution
@@ -85,7 +84,6 @@ experiences:
         Stack: Playwright, Cypress, JavaScript, Bitbucket, TestRail
         - Owned automation strategy for critical user journeys, including payment flows, keeping coverage aligned with business risk
         - Achieved ~85% coverage of critical paths
-        - Designed a maintainable test architecture (fixtures, page objects/helpers, selector and test data strategy), reducing maintenance effort by ~70%
         - Expanded Cypress UI automation to 100+ regression scenarios and 30 high-signal smoke checks
         - Performed PR reviews with a focus on testability, stability, and maintainability
         - Investigated failures, reduced flaky behavior, and provided actionable defect reports for faster turnaround
@@ -96,7 +94,6 @@ experiences:
         Stack: WebdriverIO, Appium, JavaScript, Allure, BrowserStack, Git, CircleCI, Jenkins
         - Built and maintained a cross-platform automation framework (web + iOS/Android) using WebdriverIO and Appium, covering ~80% of critical scenarios
         - Scaled cloud execution in BrowserStack across 20+ device/browser configurations with Allure reporting
-        - Improved run visibility and reduced investigation time by ~80%
         - Integrated automated suites into Jenkins and CircleCI, delivering CI feedback in ~40 minutes and supporting release readiness gates
         - Implemented reliable cross-platform scenarios, managed test data, and maintained consistent execution environments
         - Triaged test results, performed root-cause analysis, and collaborated with developers on fixes and quality improvements
@@ -109,7 +106,6 @@ experiences:
         - Automated 200+ business-critical CRM workflows, including 30 smoke scenarios
         - Integrated suites into Jenkins for on-demand and scheduled runs
         - Delivered ~20-minute smoke feedback and ~4-hour full regression runtime
-        - Reduced flaky failures from ~15% to ~5% through refactoring and maintainability improvements
         - Provided sprint-level quality insights in TestRail and Jira by tracking coverage and release readiness, helping keep sprint commitments above 90%
 
 footer: >
