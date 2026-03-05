@@ -11,24 +11,11 @@ sidebar:
   # Sidebar links
   email: alexkrpnsk@gmail.com
   phone: "+48 571 274 748"
-  timezone: Europe/Warsaw
-  citizenship:
-  website:
+  location: Gdańsk, Poland
+  work_authorization: Poland / EU
+  timezone: CET/CEST
   linkedin: aliaksei-karpinski-4ba800207
-  xing:
   github: AlexKarpinski
-  telegram:
-  gitlab:
-  bitbucket:
-  bluesky:
-  twitter:
-  stack-overflow:
-  codewars:
-  goodreads:
-  mastodon:
-  hackerrank:
-  leetcode:
-  pdf:
 
   languages:
     title: Languages
@@ -43,24 +30,13 @@ sidebar:
   skills:
     title: Skills
     info:
-      - item: Playwright, Cypress, Axios
-      - item: JavaScript, TypeScript
-      - item: API Testing, UI Testing
-      - item: GitHub, Jenkins, Bitbucket
-      - item: Docker
-      - item: TestRail, Jira
-      - item: BrowserStack, Allure
-
-
-  interests:
-    title: Interests
-    info:
-      - item: Chess
-        link:
-      - item: Armwrestling
-        link:
-      - item: Gaming
-        link:
+    - item: "Languages: JavaScript, TypeScript"
+    - item: "UI Automation: Playwright, Cypress, WebdriverIO"
+    - item: "API Testing: Axios, Postman, Swagger"
+    - item: "Mobile: Appium, BrowserStack"
+    - item: "CI/CD: GitHub Actions, Jenkins, Bitbucket Pipelines, CircleCI"
+    - item: "Reporting: Allure, TestRail, Jira"
+    - item: "Infrastructure: Docker, Helm"
 
 career-profile:
   title: Career Profile
@@ -73,17 +49,6 @@ career-profile:
     - ~80% coverage of critical user flows across UI and API layers
     - 10-minute smoke quality gate in CI for fast PR validation
     - Reduced flaky rate from ~15% to ~5% and improved overall test stability by ~30% through isolated, deterministic test design
-
-    Core skills:
-    - Languages: JavaScript, TypeScript
-    - UI Test Automation: Playwright, Cypress, WebdriverIO
-    - API Testing: Axios, Playwright, Cypress, Postman, Swagger
-    - Mobile Automation: Appium, BrowserStack
-    - CI/CD: GitHub Actions, Jenkins, Bitbucket Pipelines
-    - Reporting & QA Management: Allure, TestRail, Jira
-    - Infrastructure & Cloud: Docker, BrowserStack
-    - Testing Areas: functional, regression, smoke, exploratory, end-to-end, cross-browser, cross-platform
-    - AI Tools: GitHub Copilot, ChatGPT, Codex
 
 education:
   title: Education

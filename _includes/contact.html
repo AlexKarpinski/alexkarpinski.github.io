@@ -21,19 +21,25 @@
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="https://worldtimeapi.org/timezone/{{ sidebar.timezone }}" target="_blank">{{ sidebar.timezone }} Timezone</a>
+      <span>{{ sidebar.timezone }}</span>
+    </li>
+    {% endif %}
+
+    {% if sidebar.location %}
+    <li class="location"><i class="fas fa-map-marker-alt"></i>
+      <span>{{ sidebar.location }}</span>
+    </li>
+    {% endif %}
+
+    {% if sidebar.work_authorization %}
+    <li class="work-authorization"><i class="fas fa-briefcase"></i>
+      <span>Work authorization: {{ sidebar.work_authorization }}</span>
     </li>
     {% endif %}
 
     {% if sidebar.telegram %}
     <li class="telegram"><i class="fab fa-telegram"></i>
       <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.website %}
-    <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
     </li>
     {% endif %}
 
@@ -77,13 +83,6 @@
     {% assign bluesky_handle = sidebar.bluesky | remove: '@' %}
     <li class="bluesky"><i class="fab fa-bluesky"></i>
       <a href="https://bsky.app/profile/{{ bluesky_handle }}" target="_blank">{{ sidebar.bluesky }}</a>
-    </li>
-    {% endif %}
-    
-    {% if sidebar.mastodon %}
-    {% assign mastodon_handle = sidebar.mastodon | split: '/' %}
-    <li class="mastodon"><i class="fab fa-mastodon"></i>
-      <a href="{{ sidebar.mastodon }}" target="_blank">{{ mastodon_handle[3] }}@{{ mastodon_handle[2] }}</a>
     </li>
     {% endif %}
 
