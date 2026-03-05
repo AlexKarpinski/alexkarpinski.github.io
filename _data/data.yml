@@ -45,11 +45,6 @@ career-profile:
     using Playwright, Cypress, and TypeScript/JavaScript. Experienced in designing maintainable automation frameworks, 
     improving test reliability, and introducing CI quality gates that increase release confidence and accelerate delivery.
 
-    Highlights:
-    - ~80% coverage of critical user flows across UI and API layers
-    - 10-minute smoke quality gate in CI for fast PR validation
-    - Reduced flaky rate from ~15% to ~5% and improved overall test stability by ~30% through isolated, deterministic test design
-
 education:
   title: Education
   info:
