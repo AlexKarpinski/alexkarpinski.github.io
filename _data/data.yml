@@ -50,7 +50,7 @@ education:
   info:
     - degree: Bachelor of Science (BSc), Faculty of Physics
       university: Belarus State University (BSU), Minsk
-      time: Sep 2012 - Jul 2017
+      time: September 2012 - July 2017
       details: |
         Physics degree with strong analytical background.
 
@@ -58,7 +58,7 @@ experiences:
   title: Experience
   info:
     - role: Senior Test Automation Engineer
-      time: Mar 2023 - Present
+      time: May 2023 - March 2026
       company: Brightsec, Gdańsk, Poland (Remote)
       details: |
         Product: Dynamic Application Security Testing (DAST).
@@ -73,13 +73,13 @@ experiences:
         - Led the transition of UI/API E2E coverage to Playwright, removing the Cucumber layer and introducing fixtures, multi-tab/multi-session scenarios, and typed API seeding for maintainable, stable tests
 
     - role: QA Automation Engineer
-      time: Mar 2020 - Mar 2023
+      time: March 2020 - April 2023
       company: iTechArt, Minsk
       details: |
         Delivered automation across multiple client projects (web and mobile), with full Scrum participation and direct customer communication.
         Progression: from building Cypress frameworks from scratch, to scaling cross-platform mobile automation, to owning automation strategy for critical payment flows.
 
-        Project: E-commerce platform (NDA): Mar 2022 - Mar 2023
+        Project: E-commerce platform (NDA): March 2022 - April 2023
       
         Stack: Playwright, Cypress, JavaScript, Bitbucket, TestRail
         - Owned automation strategy for critical user journeys, including payment flows, keeping coverage aligned with business risk
@@ -89,7 +89,7 @@ experiences:
         - Investigated failures, reduced flaky behavior, and provided actionable defect reports for faster turnaround
         - Communicated progress, risks, and quality status directly to the customer while participating in all Scrum ceremonies
 
-        Project: GA: Mar 2021 - Feb 2022
+        Project: GA: March 2021 - February 2022
       
         Stack: WebdriverIO, Appium, JavaScript, Allure, BrowserStack, Git, CircleCI, Jenkins
         - Built and maintained a cross-platform automation framework (web + iOS/Android) using WebdriverIO and Appium, covering ~80% of critical scenarios
@@ -98,7 +98,7 @@ experiences:
         - Implemented reliable cross-platform scenarios, managed test data, and maintained consistent execution environments
         - Triaged test results, performed root-cause analysis, and collaborated with developers on fixes and quality improvements
 
-        Project: DC: Mar 2020 - Feb 2021
+        Project: DC: March 2020 - February 2021
       
         Stack: Cypress, JavaScript, TestRail, Jira, Git, Jenkins
         - Built a Cypress automation framework from scratch and standardized test conventions across the team
